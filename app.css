@@ -1,0 +1,157 @@
+body{
+    width:100%;
+    padding-top:90px;
+    font-family:'Nunito', sans-serif;
+    
+}
+
+
+.navbar-brand img{ 
+    height:50px;
+    width:50px;
+    margin-right:2rem; 
+}
+
+.navbar-brand{
+    width: 40%;
+    margin-right:auto;
+}
+
+#mainNavbar{
+    background-color: white;
+    box-shadow: 0 6px 14px rgba(0,0,0,.06);
+
+}
+
+.nav-link {
+    color: #06027C !important;
+    font-weight:700;
+    
+}
+
+.nav-link:hover {
+    color: #FD6863 !important;
+}
+
+.brand-name{
+
+    width: 20%;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+.navbar-brand-text {
+    max-width: 200px;
+    width: 100%;
+    font-weight: 400;
+    white-space: normal;
+    font-size: 12pt;
+    font-family: 'Roboto Slab', serif;
+    vertical-align: middle;
+    line-height: 14pt;
+    color: #06027C;
+    position: relative;
+}
+
+.d-inline-block{
+    display:inline-block !important;
+}
+
+
+.section-title{
+    position: relative;
+    color: #06027C;
+    line-height: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    margin-top:0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.jumbotron{
+    background-color:transparent !important;
+}
+
+.note{
+    padding: 25px;
+    background-color: #E7CBFF;
+    margin-bottom:25px;
+}
+
+.card-img-top {
+    margin-top: 30px;
+    width: 100%;
+    height: 10rem;
+    object-fit: contain;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+.card-title{
+    text-align: center;
+}
+
+
+
+  /* footer */
+  .footer{
+    background: #553D7C;
+    color:white;
+    
+
+  }
+
+  .footer .links ul{
+     list-style-type: none;
+  }  
+
+  .footer .links li a{
+    color: white;
+    transition: color .2s;
+
+  }
+
+  .footer .links li a:hover{
+    text-decoration:none;
+    color:#4180CB;
+  }
+
+
+  .footer .about-company i{
+      font-size: 25px;
+    }
+
+  .footer .about-company a{
+    
+      color:white;
+      transition: color .2s;
+  } 
+
+  .footer .about-company a:hover{
+      color:#4180CB
+    }
+
+  .footer .location i{
+    font-size: 18px;
+  }
+
+  .footer .copyright p{
+      border-top:1px solid rgba(255,255,255,.1);
+    } 
