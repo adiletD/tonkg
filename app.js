@@ -33,6 +33,10 @@ app.get("/akimiat",function(req,res){
     res.render("akimiat");
 });
 
+app.get("/aokmot",function(req,res){
+    res.render("aokmot");
+});
+
 app.get("/socrazvitie",function(req,res){
     res.render("socrazvitie");
 });

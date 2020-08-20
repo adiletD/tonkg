@@ -5,13 +5,28 @@ body{
     
 }
 
+a{
+    text-decoration: none !important;
+}
 
+.section-title:target::before {
+    content: '';
+    display: block;
+    height: 180px;
+    margin-top: -180px;
+    pointer-events: none;
+}
+
+
+.top-links{
+    margin-bottom: 10rem;
+}
 .navbar-brand img{ 
     height:50px;
     width:50px;
     margin-right:2rem; 
 }
-
+ 
 .navbar-brand{
     width: 40%;
     margin-right:auto;
@@ -155,3 +170,21 @@ body {
   .footer .copyright p{
       border-top:1px solid rgba(255,255,255,.1);
     } 
+
+
+    /*A Okmot*/
+
+
+    .accordion a:hover{
+        text-decoration: none;
+    }
+
+    .accordion .btn-link:hover,
+    .accordion .btn-link:focus {
+    text-decoration: none;
+}
+
+    .accordion .card-header {
+        border-bottom-color: #EDEFF0;
+        background: transparent;
+    }
