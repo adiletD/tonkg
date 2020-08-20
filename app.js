@@ -6,11 +6,15 @@ const mongoose = require('mongoose');
 
 app.use(express.static("public"));
 
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, '/views'));
 app.set("view engine","ejs");
 
 app.get("/",function(req,res){
     res.render("index");
+});
+
+app.get("/aokmot",function(req,res){
+    res.render("aokmot");
 });
 
 app.get("/nalog",function(req,res){
@@ -31,10 +35,6 @@ app.get("/res",function(req,res){
 
 app.get("/akimiat",function(req,res){
     res.render("akimiat");
-});
-
-app.get("/aokmot",function(req,res){
-    res.render("aokmot");
 });
 
 app.get("/socrazvitie",function(req,res){
